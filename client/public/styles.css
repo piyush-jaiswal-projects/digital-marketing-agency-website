@@ -1,0 +1,29 @@
+.header-bar{
+    margin: 0;
+}
+
+.company-info{
+    margin-left: 7rem;
+    margin-top: 2rem;
+    width: 20%;
+}
+
+.company-name{
+    padding-left: 1rem;
+    font-size: 2rem;
+}
+
+.nav-bar{
+    float: right;
+    padding: 1rem;
+    position: relative;
+    bottom: 2.5rem;
+    margin-right: 8rem;
+}
+
+.nav-links{
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: grey;
+}

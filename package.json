@@ -1,0 +1,26 @@
+{
+  "name": "digital-marketing-agency-website",
+  "version": "1.0.0",
+  "description": "This website is for the use of any digital marketing agency to sell their services.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyush-jaiswal-projects/digital-marketing-agency-website.git"
+  },
+  "author": "Piyush Jaiswal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piyush-jaiswal-projects/digital-marketing-agency-website/issues"
+  },
+  "homepage": "https://github.com/piyush-jaiswal-projects/digital-marketing-agency-website#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  }
+}
