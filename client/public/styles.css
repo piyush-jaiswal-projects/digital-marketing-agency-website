@@ -5,7 +5,7 @@ html{
 body{
     padding: 0;
     margin: 0;
-    background-image: url("./images/frontBG.jpg");
+    /* background-image: url("./images/frontBG.jpg"); */
 }
 
 .header-bar{
@@ -91,8 +91,8 @@ body{
 
 .home-landing-section{
     background-image: url("./images/frontBG.jpg");
-    height: 35rem;
-    margin-top: 6rem;
+    height: 38rem;
+    margin-top: 5rem;
 }
 .website-headline{
     width: 40%;
@@ -154,4 +154,86 @@ body{
     bottom: 13rem;
 }
 
+.testimonial-heading{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(12, 58, 128);
+}
 
+.slideshow-container{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    height: 7rem;
+    padding: auto;
+    display: flexbox;
+    margin-bottom: 5rem;
+}
+
+.mySlides{
+    display: none;
+}
+
+.slideshow-image{
+    float: left;
+    width: 8rem;
+    height: 7rem;
+    padding: 0 5rem 0 5rem;
+}
+
+.logo3, .logo4, .logo5, .logo6{
+    display: block;
+}
+
+.services-container{
+    margin-top: 2rem;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+}
+
+.services-section{
+    margin-bottom: 2rem;
+}
+
+.services-heading{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(12, 58, 128);
+    margin: 0;
+}
+
+.service-box{
+    width: 25%;
+    height: 80%;
+    margin: 0;
+    padding: 0;
+    box-shadow: 1px 1px 5px 5px rgba(190, 187, 187, 0.5);
+    float: left;
+    margin-left: 3rem;
+}
+
+.service-image{
+    width: 20rem;
+    height: 12rem;
+    position: relative;
+}
+
+/* .service-title{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(12, 58, 128);
+    font-size: 2rem;
+    text-align: center;
+} */
+
+.service-title{
+    display: none;
+}
+
+.service-para{
+    margin-top: 0;
+    padding: 2rem;
+    padding-top: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: grey;
+    font-size: 1.2rem;
+    text-align: center;
+}
