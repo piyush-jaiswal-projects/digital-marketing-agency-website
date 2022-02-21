@@ -12,6 +12,7 @@ import HomeLandingSection from "./components/homeLandingSection.jsx";
 import Testimonials from "./components/testimonials.jsx";
 import Service from "./components/services.jsx";
 import Contact from "./components/contact.jsx";
+import Founders from "./components/founders.jsx";
 
 const rootElement = document.getElementById("root");
 
@@ -25,6 +26,7 @@ render(
           <Testimonials />
           <Service />
           <Contact />
+          <Founders />
           </div>
         } />
       </Routes>
