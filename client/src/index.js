@@ -11,6 +11,7 @@ import Header from "./components/header.jsx";
 import HomeLandingSection from "./components/homeLandingSection.jsx";
 import Testimonials from "./components/testimonials.jsx";
 import Service from "./components/services.jsx";
+import Contact from "./components/contact.jsx";
 
 const rootElement = document.getElementById("root");
 
@@ -23,6 +24,7 @@ render(
           <HomeLandingSection />
           <Testimonials />
           <Service />
+          <Contact />
           </div>
         } />
       </Routes>

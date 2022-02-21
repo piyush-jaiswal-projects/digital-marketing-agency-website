@@ -237,3 +237,36 @@ body{
     font-size: 1.2rem;
     text-align: center;
 }
+
+.contact-section{
+    background-image: url("./images/frontBG.jpg");
+    display: inline-block;
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.contact-heading{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(12, 58, 128);
+    margin: 0;
+    margin-top: 3rem;
+}
+
+.contact-para{
+    margin-top: 0;
+    padding: 2rem;
+    padding-top: 0.3rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: grey;
+    font-size: 1.2rem;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.contact-button{
+    position: relative;
+    bottom: 2.5rem;
+    right: 0.5rem;
+}
