@@ -273,6 +273,7 @@ body{
 
 .founders-section{
     margin-top: 4rem;
+    margin-bottom: 4rem;
     float: left;
     height: 30rem;
     overflow: hidden;
@@ -328,3 +329,41 @@ body{
     left: 38rem;
     bottom: 25rem;
 }
+
+.features-section{
+    margin-top: 10rem;
+}
+
+.features-image{
+    height: 25rem;
+    width: 25rem;
+    float: left;
+    position: relative;
+    left: 6rem;
+    top: 2rem;
+}
+
+.features{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    width: 50%;
+    box-shadow: 1px 1px 5px 5px rgba(190, 187, 187, 0.5);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    position: relative;
+    left: 10rem;
+    display: inline-block;
+}
+
+.feature-info{
+    padding: 0.5rem;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+.feature-para{
+    padding: 0;
+}
+

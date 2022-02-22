@@ -13,6 +13,7 @@ import Testimonials from "./components/testimonials.jsx";
 import Service from "./components/services.jsx";
 import Contact from "./components/contact.jsx";
 import Founders from "./components/founders.jsx";
+import Features from "./components/features.jsx";
 
 const rootElement = document.getElementById("root");
 
@@ -27,6 +28,7 @@ render(
           <Service />
           <Contact />
           <Founders />
+          <Features />
           </div>
         } />
       </Routes>
