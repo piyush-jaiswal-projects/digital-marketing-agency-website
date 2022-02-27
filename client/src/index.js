@@ -15,6 +15,7 @@ import Contact from "./components/contact.jsx";
 import Founders from "./components/founders.jsx";
 import Features from "./components/features.jsx";
 import ContactDetails from "./components/contactDetails.jsx";
+import Footer from "./components/footer.jsx";
 
 const rootElement = document.getElementById("root");
 
@@ -31,6 +32,7 @@ render(
           <Founders />
           <Features />
           <ContactDetails />
+          <Footer />
           </div>
         } />
       </Routes>
