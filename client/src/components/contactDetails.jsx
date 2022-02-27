@@ -20,6 +20,16 @@ function contactDetails(){
             contact@digitalbuddy.com
         </p>
         </div>
+        <div class="contact-emails contact-social">
+        <img src="./images/social.png" class="location-image email-image" alt="Social Media Handles"></img>
+        <h3 class="testimonial-heading address-title">Social Media</h3>
+        <p class="contact-section-para">
+           <a href="https://www.instagram.com"><img class="location-image social-img" alt="instagram" src="./images/ig.png"></img></a>
+           <a href="https://www.twitter.com"><img class="location-image social-img" alt="twitter" src="./images/tw.png"></img></a>
+           <a href="https://www.linkedin.com"><img class="location-image social-img" alt="linkedin" src="./images/li.png"></img></a>
+        
+        </p>
+        </div>
         </div>
     );
 }

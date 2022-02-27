@@ -375,7 +375,7 @@ body{
 }
 
 .contact-address, .contact-emails{
-    width: 35%;
+    width: 20%;
     background-color: rgb(232, 245, 250);
     text-align: left;
     float: left;
@@ -419,3 +419,8 @@ body{
     margin: 0;
 }
 
+.social-img{
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+    cursor: pointer;
+}
