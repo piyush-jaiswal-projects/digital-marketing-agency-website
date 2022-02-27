@@ -14,6 +14,7 @@ import Service from "./components/services.jsx";
 import Contact from "./components/contact.jsx";
 import Founders from "./components/founders.jsx";
 import Features from "./components/features.jsx";
+import ContactDetails from "./components/contactDetails.jsx";
 
 const rootElement = document.getElementById("root");
 
@@ -29,6 +30,7 @@ render(
           <Contact />
           <Founders />
           <Features />
+          <ContactDetails />
           </div>
         } />
       </Routes>
