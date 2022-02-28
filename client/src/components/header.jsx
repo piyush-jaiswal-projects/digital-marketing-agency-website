@@ -10,10 +10,10 @@ function Header(){
         </div>
 
         <div class="nav-bar">
-        <a href=" " class="nav-links nav1">Home</a>
-        <a href=" " class="nav-links nav2">Our Services</a>
-        <a href=" " class="nav-links nav3">About</a>
-        <a href=" " class="nav-links nav4">Contact</a>
+        <a href="#landingSection" class="nav-links nav1">Home</a>
+        <a href="#serviceSection" class="nav-links nav2">Our Services</a>
+        <a href="#founderSection" class="nav-links nav3">About</a>
+        <a href="#contactSection" class="nav-links nav4">Contact</a>
         <button href=" " class="nav-btn">Let's connect</button>
         </div>
 

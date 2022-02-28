@@ -2,12 +2,12 @@ import React from "react";
 
 function founders(){
     return(
-    <div class="founders-section">
+    <div class="founders-section" id="founderSection">
     <div class="founders-message-section">
     <p class="testimonial-heading founder-heading">Who We Are</p>
     <h1 class="services-heading founder-main-heading">We are a team of experienced marketing experts dedicated to build your presence online.</h1>
     <p class="service-para founder-para">We specialize in various forms of digital marketing. SOme are facebook ads, google ads, SEO, email marketing, influencer marketing, etc.</p>
-    <button class="heading-btn founder-btn">Learn how<p class="animation-content">--&gt;</p></button>
+    <a href="#learn-how-ref"><button class="heading-btn founder-btn">Learn how<p class="animation-content">--&gt;</p></button></a>
     </div>
 
     <div class="founders-intro-section">

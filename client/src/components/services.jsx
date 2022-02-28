@@ -2,7 +2,7 @@ import React from "react";
 
 function ourServices(){
 return(
-    <div class="services-section">
+    <div class="services-section" id="serviceSection">
     <h3 class="testimonial-heading">Our Services</h3>
     <h1 class="services-heading">Here's what we offer</h1>
     <div class="services-container">

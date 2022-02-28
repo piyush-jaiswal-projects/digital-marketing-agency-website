@@ -2,7 +2,7 @@ import React from "react";
 
 function featuresSection(){
     return(
-    <div class="features-section">
+    <div class="features-section" id="learn-how-ref">
     <h1 class="services-heading features-heading wrapper">Here's why you should work with us</h1>
     <img class="features-image" src="./images/features.gif" alt="featuresImage"></img>
     <div class="features">
