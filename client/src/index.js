@@ -16,6 +16,7 @@ import Founders from "./components/founders.jsx";
 import Features from "./components/features.jsx";
 import ContactDetails from "./components/contactDetails.jsx";
 import Footer from "./components/footer.jsx";
+import ContactForm from "./components/contactForm.jsx"
 
 const rootElement = document.getElementById("root");
 
@@ -35,6 +36,7 @@ render(
           <Footer />
           </div>
         } />
+        <Route path="/contact-form" element={<div><ContactForm /></div>} />
       </Routes>
     </BrowserRouter>,
     rootElement
