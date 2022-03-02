@@ -5,7 +5,7 @@ html{
 body{
     padding: 0;
     margin: 0;
-    /* background-image: url("./images/frontBG.jpg"); */
+    background-image: url("./images/frontBG.jpg");
 }
 
 .header-bar{
@@ -475,6 +475,8 @@ body{
     outline: none;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.2rem;
+    color: rgb(20, 20, 73);
+    font-weight: bold;
 }
 
 .form-submit-button{
@@ -497,4 +499,40 @@ body{
 .contact-company-info{
     margin: 0;
     padding: 0;
+}
+
+.thanks-div{
+    background-image: url("./images/frontBG.jpg");
+    height: 100%;
+    width: 100%;
+}
+
+.thanks-info-div{
+    background-image: none;
+    background-color: white;
+    box-shadow: 1px 1px 5px 5px rgba(190, 187, 187, 0.5);
+    width: 60%;
+    border-radius: 0.5rem;
+    margin: auto;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.thanks-heading,.thanks-para{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(12, 58, 128);
+}
+
+.thanks-btn{
+    background-color: rgb(44, 92, 197);
+    color: white;
+    cursor: pointer;
+    border-style: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.thanks-btn:hover{
+    background-color: aliceblue;
+    color: grey;
 }
