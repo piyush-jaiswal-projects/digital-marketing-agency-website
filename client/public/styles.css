@@ -14,7 +14,7 @@ body{
     padding: 0rem;
     height: 5rem;
     background-image: url("./images/frontBG.jpg");
-    transition: 0.5s;
+    transition: 0s;
     position: fixed;
     top: 0;
     width: 100%;
@@ -535,4 +535,101 @@ body{
 .thanks-btn:hover{
     background-color: aliceblue;
     color: grey;
+}
+
+@media only screen and (max-width: 320px) {
+    .header-bar{
+        background-image: none;
+        background-color: rgb(49, 88, 216);
+        z-index: 1000;
+        box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+        width: 272%;
+        height: 12rem;
+        position: relative;
+    }
+
+    .company-name{
+        left: 2rem;
+        font-size: 7rem;
+        color: rgb(240, 240, 247);
+        display: none;
+    }
+
+    .company-info{
+        margin-left: 1rem;
+        width: 100%;
+    }
+
+    .company-logo{
+        width: 15rem;
+        height: 14rem;
+    }
+
+    .nav-bar{
+        display: none;
+    }
+
+    .website-headline{
+        width: 250%;
+        position: relative;
+        left: 5rem;
+    }
+
+    .main-heading{
+        font-size: 7rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .secondary-heading{
+        font-size: 3rem;
+        position: relative;
+        top: 3rem;
+    }
+
+    .heading-btn{  
+        font-size: 3.8rem;
+        font-family: 'Roboto Condensed', sans-serif;
+        border-radius: 1rem;
+        width: 80%;
+        position: relative;
+        top: 4rem;
+        left: 2.5rem;
+    }
+
+    .front-image{
+        width: 35rem;
+        height: 35rem;
+        position: relative;
+        top: 15rem;
+        left: 10rem;
+    }
+
+    .testimonial-section{
+        display: none;
+    }
+
+    .services-section{
+        display: none;
+    }
+
+    .contact-section{
+        display: none;
+    }
+
+    .founders-section{
+        display: none;
+    }
+
+    .features-section{
+        display: none;
+    }
+
+    .contact-details-section{
+        display: none;
+    }
+
+    .footer{
+        display: none;
+    }
+
 }
