@@ -537,14 +537,14 @@ body{
     color: grey;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 320px) and (max-width: 425px){
     .header-bar{
         background-image: none;
         background-color: rgb(49, 88, 216);
         z-index: 1000;
         box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
         width: 272%;
-        height: 12rem;
+        height: 10rem;
         position: relative;
     }
 
@@ -605,23 +605,203 @@ body{
     }
 
     .testimonial-section{
-        display: none;
+        width: 270%;
+        height: 50rem;
+        text-align: center;
+        position: relative;
+        top: 70rem;
+        left: 2rem;
     }
 
-    .services-section{
-        display: none;
+    .testimonial-heading{
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        color: rgb(12, 58, 128);
+        font-size: 4rem;
     }
+    
+    .slideshow-container{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding: auto;
+        display: flexbox;
+        margin-bottom: 0rem;
+    }
+
+    .slideshow-image{
+        float: left;
+        width: 17rem;
+        height: 16rem;
+        padding: 0 5rem 0 5rem;
+    }
+    
+    .logo3, .logo4, .logo5, .logo6{
+        display: block;
+    }
+    
+.services-container{
+    margin-top: 0rem;
+    margin-left: 0rem;
+    margin-bottom: 0rem;
+    text-align: center;
+}
+
+.services-section{
+    margin-bottom: 3rem;
+    position: relative;
+        top: 70rem;
+        width: 270%;
+}
+
+.services-heading{
+    position: relative;
+        bottom: 3rem;
+        left: 1rem;
+        font-size: 3.5rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(12, 58, 128);
+    margin: 0;
+}
+
+.service-box{
+    width: 80%;
+    height: 80%;
+    margin: 2rem;
+    padding: 2rem;
+    box-shadow: 1px 1px 5px 5px rgba(190, 187, 187, 0.5);
+    border-radius: 1rem;
+    float: left;
+    position: relative;
+    left: 3rem;
+
+}
+
+.service-image{
+    width: 20rem;
+    height: 12rem;
+    position: relative;
+}
+
+.service-title{
+    display: none;
+}
+
+.service-para{
+display: none;
+}
 
     .contact-section{
-        display: none;
+        background-image: url("./images/frontBG.jpg");
+        display: inline-block;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        font-size: 3.5rem;
+        width: 280%;
+        position: relative;
+        top: 70rem;
+    }
+    
+    .contact-heading{
+        font-family: 'Roboto', sans-serif;
+        color: rgb(12, 58, 128);
+        margin: 0;
+    }
+    
+    .contact-para{
+        margin-top: 0;
+        padding: 2rem;
+        padding-top: 0.3rem;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: grey;
+        font-size: 3rem;
+    }
+    
+    .wrapper{
+        text-align: center;
+    }
+    
+    .contact-button{
+        position: relative;
+        bottom: 3rem;
+        font-size: 3.5rem;
+        padding: 1.5rem;
+        border-radius: 1rem;
     }
 
     .founders-section{
-        display: none;
+        width: 280%;
+        height: 50rem;
+        position: relative;
+        top: 60rem;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+        overflow: visible;
+    }
+    
+    .founders-message-section{
+        background-image: url("./images/frontBG.jpg");
+        width: 80%;
+    }
+    
+    .founder-heading, .founder-main-heading, .founder-para, .funder-btn{
+        text-align: center;
+    }
+    
+    .founder-para{
+        padding: 0;
+    }
+
+    .founder-name{
+        position: relative;
+        top: 2rem;
+    }
+    
+    .founder-main-heading{
+        margin-top: 4rem;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .founder-heading{
+        margin: 0;
+        font-weight: bold;
+    }
+    
+    .founder-image{
+        height: auto;
+        width: auto;
+    }
+    
+    .founder1, .founder2{
+        width: 80%;
+        padding: 1rem;
+    }
+    
+    .founder-tagline{
+        margin: 0;
+        padding: 0;
+        margin-top: 2rem;
+        color: grey;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    
+    .founders-intro-section{
+        position: relative;
+        left: 0rem;
+        bottom: 0rem;
+    }
+
+    .found-para{
+        display: block;
+        font-size: 3rem;
     }
 
     .features-section{
-        display: none;
+        width: 280%;
+        position: relative;
+        top: 150rem;
     }
 
     .contact-details-section{
